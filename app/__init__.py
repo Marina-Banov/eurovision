@@ -12,9 +12,10 @@ db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 cors = CORS(app)
 
-from app import models, users
+from app import users, countries
 
 app.register_blueprint(users.blueprint)
+app.register_blueprint(countries.blueprint)
 
 
 @app.route('/')
@@ -22,5 +23,5 @@ def hello_world():  # put application's code here
     return 'Hello World!'
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     app.run()

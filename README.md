@@ -9,5 +9,6 @@ pip install flask python-dotenv flask-sqlalchemy flask-migrate flask-cors
 ```
 
 Remember to create a `.env` file similar to `.env.example`.  
-Run `flask db upgrade` to apply database migrations.
+Run `flask db upgrade` to apply database migrations.  
+Run `flask seed` to apply database seeds.  
 Run `flask run` to start the server.
