@@ -1,5 +1,4 @@
 from app import db
-from sqlalchemy import types
 
 
 class User(db.Model):
@@ -16,8 +15,8 @@ class Country(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     code = db.Column(db.String(2))
     name = db.Column(db.String(128))
-    artist = db.Column(types.Unicode(128))
-    song = db.Column(types.Unicode(128))
+    artist = db.Column(db.Unicode(128))
+    song = db.Column(db.Unicode(128))
     songUrl = db.Column(db.String(256))
     inFinal = db.Column(db.Boolean)
     order = db.Column(db.Integer)
@@ -25,15 +24,8 @@ class Country(db.Model):
     def __repr__(self):
         return '<Country {}>'.format(self.name)
 
-    def __init__(self, c):
-        self.id = c['id']
-        self.code = c['code']
-        self.name = c['name']
-        self.artist = c['artist']
-        self.song = c['song']
-        self.songUrl = c['songUrl']
-        self.inFinal = c['inFinal']
-        self.order = c['order']
+    def __init__(self, country):
+        self.__dict__.update(country)
 
     @classmethod
     def seed(cls, c):

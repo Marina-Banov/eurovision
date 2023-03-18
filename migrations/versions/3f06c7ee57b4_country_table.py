@@ -1,8 +1,8 @@
 """country table
 
-Revision ID: d8775141d422
+Revision ID: 3f06c7ee57b4
 Revises: 9f4172e61ff0
-Create Date: 2023-03-18 20:23:47.042665
+Create Date: 2023-03-18 21:05:26.047150
 
 """
 from alembic import op
@@ -10,7 +10,7 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = 'd8775141d422'
+revision = '3f06c7ee57b4'
 down_revision = '9f4172e61ff0'
 branch_labels = None
 depends_on = None

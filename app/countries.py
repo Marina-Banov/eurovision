@@ -1,4 +1,4 @@
-from flask import Blueprint, request
+from flask import Blueprint
 from sqlalchemy.exc import StatementError, NoResultFound
 
 from app import db, models
@@ -9,8 +9,9 @@ blueprint = Blueprint('countries', __name__)
 @blueprint.route('/countries', methods=['GET'])
 def get():
     try:
-        countries = db.session.query(models.Country).filter(
-            models.Country.inFinal == True).all()
+        countries = db.session.query(models.Country)\
+            .filter(models.Country.inFinal)\
+            .order_by(models.Country.order).all()
         for i in range(len(countries)):
             countries[i] = countries[i].__dict__
             countries[i].pop('_sa_instance_state')
