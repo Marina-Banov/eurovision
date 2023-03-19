@@ -15,7 +15,7 @@ def get():
         for i in range(len(countries)):
             countries[i] = countries[i].__dict__
             countries[i].pop('_sa_instance_state')
-        return countries, 200
+        return {"countries": countries}, 200
     except NoResultFound as e:
         return {"message": str(e)}, 404
     except StatementError as e:
