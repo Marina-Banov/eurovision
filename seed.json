@@ -3,7 +3,7 @@
     {
       "id":  1,
       "order":  1,
-      "code":  "",
+      "code":  "AL",
       "name":  "Albania",
       "artist":  "Albina & Familja Kelmendi",
       "song":  "Duje",
@@ -13,7 +13,7 @@
     {
       "id":  2,
       "order":  2,
-      "code":  "",
+      "code":  "AM",
       "name":  "Armenia",
       "artist":  "Brunette",
       "song":  "Future Lover",
@@ -23,7 +23,7 @@
     {
       "id":  3,
       "order":  3,
-      "code":  "",
+      "code":  "AU",
       "name":  "Australia",
       "artist":  "Voyager",
       "song":  "Promise",
@@ -33,7 +33,7 @@
     {
       "id":  4,
       "order":  4,
-      "code":  "",
+      "code":  "AT",
       "name":  "Austria",
       "artist":  "Teya & Salena",
       "song":  "Who The Hell Is Edgar?",
@@ -43,7 +43,7 @@
     {
       "id":  5,
       "order":  5,
-      "code":  "",
+      "code":  "AZ",
       "name":  "Azerbaijan",
       "artist":  "TuralTuranX",
       "song":  "Tell Me More",
@@ -53,7 +53,7 @@
     {
       "id":  6,
       "order":  6,
-      "code":  "",
+      "code":  "BE",
       "name":  "Belgium",
       "artist":  "Gustaph",
       "song":  "Because Of You",
@@ -63,7 +63,7 @@
     {
       "id":  7,
       "order":  7,
-      "code":  "",
+      "code":  "HR",
       "name":  "Croatia",
       "artist":  "Let 3",
       "song":  "Mama ŠČ!",
@@ -73,7 +73,7 @@
     {
       "id":  8,
       "order":  8,
-      "code":  "",
+      "code":  "CY",
       "name":  "Cyprus",
       "artist":  "Andrew Lambrou",
       "song":  "Break A Broken Heart",
@@ -83,7 +83,7 @@
     {
       "id":  9,
       "order":  9,
-      "code":  "",
+      "code":  "CZ",
       "name":  "Czechia",
       "artist":  "Vesna",
       "song":  "My Sister's Crown",
@@ -93,7 +93,7 @@
     {
       "id":  10,
       "order":  10,
-      "code":  "",
+      "code":  "DK",
       "name":  "Denmark",
       "artist":  "Reiley",
       "song":  "Breaking My Heart",
@@ -103,7 +103,7 @@
     {
       "id":  11,
       "order":  11,
-      "code":  "",
+      "code":  "EE",
       "name":  "Estonia",
       "artist":  "Alika",
       "song":  "Bridges",
@@ -113,7 +113,7 @@
     {
       "id":  12,
       "order":  12,
-      "code":  "",
+      "code":  "FI",
       "name":  "Finland",
       "artist":  "Käärijä",
       "song":  "Cha Cha Cha",
@@ -123,7 +123,7 @@
     {
       "id":  13,
       "order":  13,
-      "code":  "",
+      "code":  "FR",
       "name":  "France",
       "artist":  "La Zarra",
       "song":  "Évidemment",
@@ -133,7 +133,7 @@
     {
       "id":  14,
       "order":  14,
-      "code":  "",
+      "code":  "GE",
       "name":  "Georgia",
       "artist":  "Iru",
       "song":  "Echo",
@@ -143,7 +143,7 @@
     {
       "id":  15,
       "order":  15,
-      "code":  "",
+      "code":  "DE",
       "name":  "Germany",
       "artist":  "Lord of the Lost",
       "song":  "Blood & Glitter",
@@ -153,7 +153,7 @@
     {
       "id":  16,
       "order":  16,
-      "code":  "",
+      "code":  "GR",
       "name":  "Greece",
       "artist":  "Victor Vernicos",
       "song":  "What They Say",
@@ -163,7 +163,7 @@
     {
       "id":  17,
       "order":  17,
-      "code":  "",
+      "code":  "IS",
       "name":  "Iceland",
       "artist":  "Diljá",
       "song":  "Power",
@@ -173,7 +173,7 @@
     {
       "id":  18,
       "order":  18,
-      "code":  "",
+      "code":  "IE",
       "name":  "Ireland",
       "artist":  "Wild Youth",
       "song":  "We Are One",
@@ -183,7 +183,7 @@
     {
       "id":  19,
       "order":  19,
-      "code":  "",
+      "code":  "IL",
       "name":  "Israel",
       "artist":  "Noa Kirel",
       "song":  "Unicorn",
@@ -193,7 +193,7 @@
     {
       "id":  20,
       "order":  20,
-      "code":  "",
+      "code":  "IT",
       "name":  "Italy",
       "artist":  "Marco Mengoni",
       "song":  "Due Vite",
@@ -203,7 +203,7 @@
     {
       "id":  21,
       "order":  21,
-      "code":  "",
+      "code":  "LV",
       "name":  "Latvia",
       "artist":  "Sudden Lights",
       "song":  "Aijā",
@@ -213,7 +213,7 @@
     {
       "id":  22,
       "order":  22,
-      "code":  "",
+      "code":  "LT",
       "name":  "Lithuania",
       "artist":  "Monika Linkytė",
       "song":  "Stay",
@@ -223,7 +223,7 @@
     {
       "id":  23,
       "order":  23,
-      "code":  "",
+      "code":  "MT",
       "name":  "Malta",
       "artist":  "The Busker",
       "song":  "Dance (Our Own Party)",
@@ -233,7 +233,7 @@
     {
       "id":  24,
       "order":  24,
-      "code":  "",
+      "code":  "MD",
       "name":  "Moldova",
       "artist":  "Pasha Perfeni",
       "song":  "Soarele şi Luna",
@@ -243,7 +243,7 @@
     {
       "id":  25,
       "order":  25,
-      "code":  "",
+      "code":  "NL",
       "name":  "Netherlands",
       "artist":  "Mia Nicolai & Dion Cooper",
       "song":  "Burning Daylight",
@@ -253,7 +253,7 @@
     {
       "id":  26,
       "order":  26,
-      "code":  "",
+      "code":  "NO",
       "name":  "Norway",
       "artist":  "Alessandra",
       "song":  "Queen of Kings",
@@ -263,7 +263,7 @@
     {
       "id":  27,
       "order":  27,
-      "code":  "",
+      "code":  "PL",
       "name":  "Poland",
       "artist":  "Blanka",
       "song":  "Solo",
@@ -273,7 +273,7 @@
     {
       "id":  28,
       "order":  28,
-      "code":  "",
+      "code":  "PT",
       "name":  "Portugal",
       "artist":  "Mimicat",
       "song":  "Ai Coração",
@@ -283,7 +283,7 @@
     {
       "id":  29,
       "order":  29,
-      "code":  "",
+      "code":  "RO",
       "name":  "Romania",
       "artist":  "Theodor Andrei",
       "song":  "D.G.T. (Off and On)",
@@ -293,7 +293,7 @@
     {
       "id":  30,
       "order":  30,
-      "code":  "",
+      "code":  "SM",
       "name":  "San Marino",
       "artist":  "Piqued Jacks",
       "song":  "Like An Animal",
@@ -303,7 +303,7 @@
     {
       "id":  31,
       "order":  31,
-      "code":  "",
+      "code":  "RS",
       "name":  "Serbia",
       "artist":  "Luke Black",
       "song":  "Samo Mi Se Spava",
@@ -313,7 +313,7 @@
     {
       "id":  32,
       "order":  32,
-      "code":  "",
+      "code":  "SI",
       "name":  "Slovenia",
       "artist":  "Joker Out",
       "song":  "Carpe Diem",
@@ -323,7 +323,7 @@
     {
       "id":  33,
       "order":  33,
-      "code":  "",
+      "code":  "ES",
       "name":  "Spain",
       "artist":  "Blanca Paloma",
       "song":  "Eaea",
@@ -333,7 +333,7 @@
     {
       "id":  34,
       "order":  34,
-      "code":  "",
+      "code":  "SE",
       "name":  "Sweden",
       "artist":  "Loreen",
       "song":  "Tattoo",
@@ -343,7 +343,7 @@
     {
       "id":  35,
       "order":  35,
-      "code":  "",
+      "code":  "CH",
       "name":  "Switzerland",
       "artist":  "Remo Forrer",
       "song":  "Watergun",
@@ -353,7 +353,7 @@
     {
       "id":  36,
       "order":  36,
-      "code":  "",
+      "code":  "UA",
       "name":  "Ukraine",
       "artist":  "TVORCHI",
       "song":  "Heart Of Steel",
@@ -363,7 +363,7 @@
     {
       "id":  37,
       "order":  37,
-      "code":  "",
+      "code":  "GB",
       "name":  "United Kingdom",
       "artist":  "Mae Miller",
       "song":  "I Wrote A Song",
