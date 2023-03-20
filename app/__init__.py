@@ -12,10 +12,11 @@ db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 cors = CORS(app)
 
-from app import users, countries
+from app import users, countries, reviews
 
 app.register_blueprint(users.blueprint)
 app.register_blueprint(countries.blueprint)
+app.register_blueprint(reviews.blueprint)
 
 
 if __name__ == "__main__":

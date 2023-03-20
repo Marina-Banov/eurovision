@@ -18,9 +18,7 @@ def add():
         db.session.rollback()
         u = db.session.query(models.User)\
             .filter(models.User.username == data).one()
-        u = u.__dict__
-        u.pop('_sa_instance_state')
-        return u, 409
+        return eval(str(u)), 409
     except StatementError as e:
         return {"message": str(e.orig)}, 400
 
@@ -31,9 +29,7 @@ def get():
     try:
         u = db.session.query(models.User)\
             .filter(models.User.username == data).one()
-        u = u.__dict__
-        u.pop('_sa_instance_state')
-        return u, 200
+        return eval(str(u)), 200
     except NoResultFound as e:
         return {"message": str(e)}, 404
     except StatementError as e:

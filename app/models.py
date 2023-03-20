@@ -1,6 +1,9 @@
 from app import db
 
 
+ignored_keys = ["_sa_instance_state"]
+
+
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(64), index=True, unique=True)
@@ -8,7 +11,9 @@ class User(db.Model):
     password_hash = db.Column(db.String(128))
 
     def __repr__(self):
-        return '<User {}>'.format(self.username)
+        return str({
+            k: v for k, v in self.__dict__.items() if k not in ignored_keys
+        })
 
 
 class Country(db.Model):
@@ -22,7 +27,9 @@ class Country(db.Model):
     order = db.Column(db.Integer)
 
     def __repr__(self):
-        return '<Country {}>'.format(self.name)
+        return str({
+            k: v for k, v in self.__dict__.items() if k not in ignored_keys
+        })
 
     def __init__(self, country):
         self.__dict__.update(country)
@@ -36,3 +43,22 @@ class Country(db.Model):
     @classmethod
     def clean(cls):
         db.session.query(cls).delete()
+
+
+class Review(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    userId = db.Column(db.ForeignKey("user.id"))
+    countryId = db.Column(db.ForeignKey("country.id"))
+    points = db.Column(db.Integer)
+
+    __table_args__ = (
+        db.UniqueConstraint('userId', 'countryId'),
+    )
+
+    def __repr__(self):
+        return str({
+            k: v for k, v in self.__dict__.items() if k not in ignored_keys
+        })
+
+    def __init__(self, review):
+        self.__dict__.update(review)
