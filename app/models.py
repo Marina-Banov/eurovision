@@ -52,7 +52,7 @@ class Review(db.Model):
     points = db.Column(db.Integer)
 
     __table_args__ = (
-        db.UniqueConstraint('userId', 'countryId'),
+        db.UniqueConstraint("userId", "countryId"),
     )
 
     def __repr__(self):
