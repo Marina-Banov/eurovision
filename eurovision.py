@@ -7,5 +7,6 @@ def seed():
     with open("seed.json", 'r', encoding="utf8") as f:
         data = json.load(f)
         models.Country.clean()
-        for i in data["Country"]:
-            models.Country.seed(i)
+        for year in data:
+            for i in data[year]:
+                models.Country.seed({**i, "year": int(year)})

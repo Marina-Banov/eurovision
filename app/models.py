@@ -1,7 +1,7 @@
 from app import db
 
 
-ignored_keys = ["_sa_instance_state"]
+ignored_keys = ["_sa_instance_state", "year"]
 
 
 class User(db.Model):
@@ -25,6 +25,8 @@ class Country(db.Model):
     songUrl = db.Column(db.String(256))
     inFinal = db.Column(db.Boolean)
     order = db.Column(db.Integer)
+    year = db.Column(db.Integer)
+    motherTongue = db.Column(db.Boolean)
 
     def __repr__(self):
         return str({

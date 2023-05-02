@@ -1,5 +1,5 @@
 {
-  "Country": [
+  "2023": [
     {
       "id":  1,
       "order":  1,
@@ -8,7 +8,8 @@
       "artist":  "Albina & Familja Kelmendi",
       "song":  "Duje",
       "songUrl":  "",
-      "inFinal":  false
+      "inFinal":  false,
+      "motherTongue": true
     },
     {
       "id":  2,
@@ -18,7 +19,8 @@
       "artist":  "Brunette",
       "song":  "Future Lover",
       "songUrl":  "",
-      "inFinal":  false
+      "inFinal":  false,
+      "motherTongue": false
     },
     {
       "id":  3,
@@ -28,7 +30,8 @@
       "artist":  "Voyager",
       "song":  "Promise",
       "songUrl":  "",
-      "inFinal":  false
+      "inFinal":  false,
+      "motherTongue": false
     },
     {
       "id":  4,
@@ -38,7 +41,8 @@
       "artist":  "Teya & Salena",
       "song":  "Who The Hell Is Edgar?",
       "songUrl":  "",
-      "inFinal":  false
+      "inFinal":  false,
+      "motherTongue": false
     },
     {
       "id":  5,
@@ -48,7 +52,8 @@
       "artist":  "TuralTuranX",
       "song":  "Tell Me More",
       "songUrl":  "",
-      "inFinal":  false
+      "inFinal":  false,
+      "motherTongue": false
     },
     {
       "id":  6,
@@ -58,7 +63,8 @@
       "artist":  "Gustaph",
       "song":  "Because Of You",
       "songUrl":  "",
-      "inFinal":  false
+      "inFinal":  false,
+      "motherTongue": false
     },
     {
       "id":  7,
@@ -68,7 +74,8 @@
       "artist":  "Let 3",
       "song":  "Mama ŠČ!",
       "songUrl":  "",
-      "inFinal":  false
+      "inFinal":  false,
+      "motherTongue": true
     },
     {
       "id":  8,
@@ -78,7 +85,8 @@
       "artist":  "Andrew Lambrou",
       "song":  "Break A Broken Heart",
       "songUrl":  "",
-      "inFinal":  false
+      "inFinal":  false,
+      "motherTongue": false
     },
     {
       "id":  9,
@@ -88,7 +96,8 @@
       "artist":  "Vesna",
       "song":  "My Sister's Crown",
       "songUrl":  "",
-      "inFinal":  false
+      "inFinal":  false,
+      "motherTongue": true
     },
     {
       "id":  10,
@@ -98,7 +107,8 @@
       "artist":  "Reiley",
       "song":  "Breaking My Heart",
       "songUrl":  "",
-      "inFinal":  false
+      "inFinal":  false,
+      "motherTongue": false
     },
     {
       "id":  11,
@@ -108,7 +118,8 @@
       "artist":  "Alika",
       "song":  "Bridges",
       "songUrl":  "",
-      "inFinal":  false
+      "inFinal":  false,
+      "motherTongue": false
     },
     {
       "id":  12,
@@ -118,7 +129,8 @@
       "artist":  "Käärijä",
       "song":  "Cha Cha Cha",
       "songUrl":  "",
-      "inFinal":  false
+      "inFinal":  false,
+      "motherTongue": true
     },
     {
       "id":  13,
@@ -128,7 +140,8 @@
       "artist":  "La Zarra",
       "song":  "Évidemment",
       "songUrl":  "",
-      "inFinal":  true
+      "inFinal":  true,
+      "motherTongue": true
     },
     {
       "id":  14,
@@ -138,7 +151,8 @@
       "artist":  "Iru",
       "song":  "Echo",
       "songUrl":  "",
-      "inFinal":  false
+      "inFinal":  false,
+      "motherTongue": false
     },
     {
       "id":  15,
@@ -148,7 +162,8 @@
       "artist":  "Lord of the Lost",
       "song":  "Blood & Glitter",
       "songUrl":  "",
-      "inFinal":  true
+      "inFinal":  true,
+      "motherTongue": false
     },
     {
       "id":  16,
@@ -158,7 +173,8 @@
       "artist":  "Victor Vernicos",
       "song":  "What They Say",
       "songUrl":  "",
-      "inFinal":  false
+      "inFinal":  false,
+      "motherTongue": false
     },
     {
       "id":  17,
@@ -168,7 +184,8 @@
       "artist":  "Diljá",
       "song":  "Power",
       "songUrl":  "",
-      "inFinal":  false
+      "inFinal":  false,
+      "motherTongue": false
     },
     {
       "id":  18,
@@ -178,7 +195,8 @@
       "artist":  "Wild Youth",
       "song":  "We Are One",
       "songUrl":  "",
-      "inFinal":  false
+      "inFinal":  false,
+      "motherTongue": false
     },
     {
       "id":  19,
@@ -188,7 +206,8 @@
       "artist":  "Noa Kirel",
       "song":  "Unicorn",
       "songUrl":  "",
-      "inFinal":  false
+      "inFinal":  false,
+      "motherTongue": false
     },
     {
       "id":  20,
@@ -198,7 +217,8 @@
       "artist":  "Marco Mengoni",
       "song":  "Due Vite",
       "songUrl":  "",
-      "inFinal":  true
+      "inFinal":  true,
+      "motherTongue": true
     },
     {
       "id":  21,
@@ -208,7 +228,8 @@
       "artist":  "Sudden Lights",
       "song":  "Aijā",
       "songUrl":  "",
-      "inFinal":  false
+      "inFinal":  false,
+      "motherTongue": false
     },
     {
       "id":  22,
@@ -218,7 +239,8 @@
       "artist":  "Monika Linkytė",
       "song":  "Stay",
       "songUrl":  "",
-      "inFinal":  false
+      "inFinal":  false,
+      "motherTongue": false
     },
     {
       "id":  23,
@@ -228,7 +250,8 @@
       "artist":  "The Busker",
       "song":  "Dance (Our Own Party)",
       "songUrl":  "",
-      "inFinal":  false
+      "inFinal":  false,
+      "motherTongue": false
     },
     {
       "id":  24,
@@ -238,7 +261,8 @@
       "artist":  "Pasha Perfeni",
       "song":  "Soarele şi Luna",
       "songUrl":  "",
-      "inFinal":  false
+      "inFinal":  false,
+      "motherTongue": true
     },
     {
       "id":  25,
@@ -248,7 +272,8 @@
       "artist":  "Mia Nicolai & Dion Cooper",
       "song":  "Burning Daylight",
       "songUrl":  "",
-      "inFinal":  false
+      "inFinal":  false,
+      "motherTongue": false
     },
     {
       "id":  26,
@@ -258,7 +283,8 @@
       "artist":  "Alessandra",
       "song":  "Queen of Kings",
       "songUrl":  "",
-      "inFinal":  false
+      "inFinal":  false,
+      "motherTongue": false
     },
     {
       "id":  27,
@@ -268,7 +294,8 @@
       "artist":  "Blanka",
       "song":  "Solo",
       "songUrl":  "",
-      "inFinal":  false
+      "inFinal":  false,
+      "motherTongue": false
     },
     {
       "id":  28,
@@ -278,7 +305,8 @@
       "artist":  "Mimicat",
       "song":  "Ai Coração",
       "songUrl":  "",
-      "inFinal":  false
+      "inFinal":  false,
+      "motherTongue": true
     },
     {
       "id":  29,
@@ -288,7 +316,8 @@
       "artist":  "Theodor Andrei",
       "song":  "D.G.T. (Off and On)",
       "songUrl":  "",
-      "inFinal":  false
+      "inFinal":  false,
+      "motherTongue": true
     },
     {
       "id":  30,
@@ -298,7 +327,8 @@
       "artist":  "Piqued Jacks",
       "song":  "Like An Animal",
       "songUrl":  "",
-      "inFinal":  false
+      "inFinal":  false,
+      "motherTongue": false
     },
     {
       "id":  31,
@@ -308,7 +338,8 @@
       "artist":  "Luke Black",
       "song":  "Samo Mi Se Spava",
       "songUrl":  "",
-      "inFinal":  false
+      "inFinal":  false,
+      "motherTongue": true
     },
     {
       "id":  32,
@@ -318,7 +349,8 @@
       "artist":  "Joker Out",
       "song":  "Carpe Diem",
       "songUrl":  "",
-      "inFinal":  false
+      "inFinal":  false,
+      "motherTongue": true
     },
     {
       "id":  33,
@@ -328,7 +360,8 @@
       "artist":  "Blanca Paloma",
       "song":  "Eaea",
       "songUrl":  "",
-      "inFinal":  true
+      "inFinal":  true,
+      "motherTongue": true
     },
     {
       "id":  34,
@@ -338,7 +371,8 @@
       "artist":  "Loreen",
       "song":  "Tattoo",
       "songUrl":  "",
-      "inFinal":  false
+      "inFinal":  false,
+      "motherTongue": false
     },
     {
       "id":  35,
@@ -348,7 +382,8 @@
       "artist":  "Remo Forrer",
       "song":  "Watergun",
       "songUrl":  "",
-      "inFinal":  false
+      "inFinal":  false,
+      "motherTongue": false
     },
     {
       "id":  36,
@@ -358,7 +393,8 @@
       "artist":  "TVORCHI",
       "song":  "Heart Of Steel",
       "songUrl":  "",
-      "inFinal":  true
+      "inFinal":  true,
+      "motherTongue": false
     },
     {
       "id":  37,
@@ -368,7 +404,8 @@
       "artist":  "Mae Miller",
       "song":  "I Wrote A Song",
       "songUrl":  "",
-      "inFinal":  true
+      "inFinal":  true,
+      "motherTongue": false
     }
   ]
 }
