@@ -52,6 +52,7 @@ class Review(db.Model):
     userId = db.Column(db.ForeignKey("user.id"))
     countryId = db.Column(db.ForeignKey("country.id"))
     points = db.Column(db.Integer)
+    order = db.Column(db.Integer)
 
     __table_args__ = (
         db.UniqueConstraint("userId", "countryId"),
