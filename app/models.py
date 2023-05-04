@@ -9,11 +9,15 @@ class User(db.Model):
     username = db.Column(db.String(64), index=True, unique=True)
     email = db.Column(db.String(128), index=True, unique=True)
     password_hash = db.Column(db.String(128))
+    review = db.relationship("Review", back_populates="user", cascade="all,delete-orphan")
 
     def __repr__(self):
         return str({
             k: v for k, v in self.__dict__.items() if k not in ignored_keys
         })
+
+    def __init__(self, user):
+        self.__dict__.update(user)
 
 
 class Country(db.Model):
@@ -27,6 +31,7 @@ class Country(db.Model):
     order = db.Column(db.Integer)
     year = db.Column(db.Integer)
     motherTongue = db.Column(db.Boolean)
+    review = db.relationship("Review", back_populates="country", cascade="all,delete-orphan")
 
     def __repr__(self):
         return str({
@@ -49,10 +54,16 @@ class Country(db.Model):
 
 class Review(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    userId = db.Column(db.ForeignKey("user.id"))
-    countryId = db.Column(db.ForeignKey("country.id"))
+    userId = db.Column(
+        db.ForeignKey("user.id", ondelete="CASCADE", name="userId")
+    )
+    countryId = db.Column(
+        db.ForeignKey("country.id", ondelete="CASCADE", name="countryId")
+    )
     points = db.Column(db.Integer)
     order = db.Column(db.Integer)
+    user = db.relationship("User", back_populates="review")
+    country = db.relationship("Country", back_populates="review")
 
     __table_args__ = (
         db.UniqueConstraint("userId", "countryId"),

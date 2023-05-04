@@ -3,6 +3,7 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from flask_cors import CORS
+from sqlalchemy import create_engine, event
 
 
 app = Flask(__name__)
@@ -10,6 +11,12 @@ config = dotenv_values(".env")
 app.config.from_mapping(config)
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
+engine = create_engine("sqlite:///instance/eurovision.db")
+event.listen(
+    engine,
+    'connect',
+    lambda dbapi_con, _: dbapi_con.execute('pragma foreign_keys=ON')
+)
 cors = CORS(app)
 
 from app import users, countries, reviews

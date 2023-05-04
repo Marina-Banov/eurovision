@@ -1,6 +1,5 @@
 from flask import Blueprint, request
 from sqlalchemy.exc import StatementError, NoResultFound, IntegrityError
-from sqlalchemy.dialects.sqlite import insert
 
 from app import db, models, config
 
@@ -10,7 +9,7 @@ blueprint = Blueprint("users", __name__)
 @blueprint.route("/users", methods=["POST"])
 def add():
     data = request.get_json()["username"]
-    u = models.User(username=data)
+    u = models.User({"username": data})
     try:
         db.session.add(u)
         countries = db.session.query(models.Country) \
@@ -18,12 +17,8 @@ def add():
             .filter(models.Country.year == int(config["EUROVISION_YEAR"])) \
             .order_by(models.Country.order).all()
         for i, c in enumerate(countries):
-            sql = insert(models.Review).values(
-                userId=u.id,
-                countryId=c.id,
-                order=i+1,
-            )
-            db.session.execute(sql)
+            r = models.Review({"userId": u.id, "countryId": c.id, "order": i+1})
+            db.session.add(r)
         db.session.commit()
         return get(data)
     except IntegrityError:
@@ -46,10 +41,10 @@ def get(username=None):
         u = u.__dict__
         u.pop("_sa_instance_state")
         u.pop("password_hash")
-        u["reviews"] = [
-            {"countryId": i[0], "points": i[1], "order": i[2]}
-            for i in reviews
-        ]
+        u["points"] = [{"countryId": i[0], "points": i[1]} for i in reviews
+                       if i[1] is not None]
+        u["order"] = [{"countryId": i[0], "order": i[2]} for i in reviews
+                      if i[2] is not None]
         return u, 200
     except NoResultFound as e:
         return {"message": str(e)}, 404

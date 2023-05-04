@@ -1,4 +1,4 @@
-"""review_table
+"""review table
 
 Revision ID: 94143f349d56
 Revises: 3f06c7ee57b4
@@ -23,8 +23,9 @@ def upgrade():
     sa.Column('userId', sa.Integer(), nullable=True),
     sa.Column('countryId', sa.Integer(), nullable=True),
     sa.Column('points', sa.Integer(), nullable=True),
-    sa.ForeignKeyConstraint(['countryId'], ['country.id'], ),
-    sa.ForeignKeyConstraint(['userId'], ['user.id'], ),
+    sa.Column('order', sa.Integer(), nullable=True),
+    sa.ForeignKeyConstraint(['countryId'], ['country.id'], name='countryId', ondelete='CASCADE'),
+    sa.ForeignKeyConstraint(['userId'], ['user.id'], name='userId', ondelete='CASCADE'),
     sa.PrimaryKeyConstraint('id'),
     sa.UniqueConstraint('userId', 'countryId')
     )
