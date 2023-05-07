@@ -24,8 +24,8 @@ def add_or_update():
         db.session.commit()
         chart = db.session.query(
             models.Review.points,
-            func.count(models.Review.id))\
-            .group_by(models.Review.points)\
+            func.count(models.Review.id)) \
+            .group_by(models.Review.points) \
             .filter(models.Review.countryId == data["countryId"]).all()
         return {i[0]: i[1] for i in chart}, 200
     except NoResultFound as e:
@@ -50,6 +50,31 @@ def new_order():
             db.session.execute(sql)
         db.session.commit()
         return {}, 200
+    except NoResultFound as e:
+        return {"message": str(e)}, 404
+    except StatementError as e:
+        return {"message": str(e.orig)}, 400
+
+
+@blueprint.route("/reviews", methods=["GET"])
+def get():
+    try:
+        reviews = db.session.query(
+            models.Review.countryId,
+            func.sum(models.Review.points).label("points"),
+            func.avg(models.Review.order).label("order"),
+        ).group_by(models.Review.countryId).all()
+        return {
+            "pointlist": sorted(
+                [{"countryId": i[0], "points": i[1] or 0} for i in reviews],
+                key=lambda x: x["points"],
+                reverse=True
+            ),
+            "orderlist": sorted(
+                [{"countryId": i[0], "order": i[2]} for i in reviews],
+                key=lambda x: x["order"]
+            )
+        }, 200
     except NoResultFound as e:
         return {"message": str(e)}, 404
     except StatementError as e:

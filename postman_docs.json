@@ -55,6 +55,23 @@
       "response": []
     },
     {
+      "name": "Get results",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{apiUrl}}/reviews",
+          "host": [
+            "{{apiUrl}}"
+          ],
+          "path": [
+            "reviews"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
       "name": "Get countries",
       "request": {
         "method": "GET",
