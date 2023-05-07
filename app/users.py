@@ -41,10 +41,10 @@ def get(username=None):
         u = u.__dict__
         u.pop("_sa_instance_state")
         u.pop("password_hash")
-        u["points"] = [{"countryId": i[0], "points": i[1]} for i in reviews
-                       if i[1] is not None]
-        u["order"] = [{"countryId": i[0], "order": i[2]} for i in reviews
-                      if i[2] is not None]
+        u["pointlist"] = [{"countryId": i[0], "points": i[1]} for i in reviews
+                          if i[1] is not None]
+        u["orderlist"] = [{"countryId": i[0], "order": i[2]} for i in reviews
+                          if i[2] is not None]
         return u, 200
     except NoResultFound as e:
         return {"message": str(e)}, 404

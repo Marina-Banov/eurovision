@@ -12,10 +12,8 @@ blueprint = Blueprint("reviews", __name__)
 def add_or_update():
     data = request.get_json()
     try:
-        u = db.session.query(models.User) \
-            .filter(models.User.username == data["username"]).one()
         sql = insert(models.Review).values(
-            userId=u.id,
+            userId=data["id"],
             countryId=data["countryId"],
             points=data["points"],
         ).on_conflict_do_update(
@@ -40,8 +38,17 @@ def add_or_update():
 def new_order():
     data = request.get_json()
     try:
-        u = db.session.query(models.User) \
-            .filter(models.User.username == data["username"]).one()
+        for i in data["orderlist"]:
+            sql = insert(models.Review).values(
+                userId=data["id"],
+                countryId=i["countryId"],
+                order=i["order"],
+            ).on_conflict_do_update(
+                index_elements=["userId", "countryId"],
+                set_=dict(order=i["order"])
+            )
+            db.session.execute(sql)
+        db.session.commit()
         return {}, 200
     except NoResultFound as e:
         return {"message": str(e)}, 404
