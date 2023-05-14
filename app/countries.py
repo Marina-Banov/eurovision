@@ -1,5 +1,6 @@
 from flask import Blueprint
 from sqlalchemy.exc import StatementError, NoResultFound
+from flask_cors import cross_origin
 
 from app import db, models, config
 
@@ -7,6 +8,7 @@ blueprint = Blueprint("countries", __name__)
 
 
 @blueprint.route("/countries", methods=["GET"])
+@cross_origin(origin='*', headers=['Content-Type', 'Authorization'])
 def get():
     try:
         countries = db.session.query(models.Country)\

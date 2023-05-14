@@ -26,5 +26,11 @@ app.register_blueprint(countries.blueprint)
 app.register_blueprint(reviews.blueprint)
 
 
+@app.after_request
+def after_request(response):
+    response.access_control_allow_origin = "*"
+    return response
+
+
 if __name__ == "__main__":
     app.run()

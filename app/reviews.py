@@ -2,6 +2,7 @@ from flask import Blueprint, request
 from sqlalchemy.exc import StatementError, NoResultFound
 from sqlalchemy.dialects.sqlite import insert
 from sqlalchemy import func
+from flask_cors import cross_origin
 
 from app import db, models
 
@@ -9,6 +10,7 @@ blueprint = Blueprint("reviews", __name__)
 
 
 @blueprint.route("/reviews/points", methods=["POST"])
+@cross_origin(origin='*', headers=['Content-Type', 'Authorization'])
 def add_or_update():
     data = request.get_json()
     try:
@@ -35,6 +37,7 @@ def add_or_update():
 
 
 @blueprint.route("/reviews/order", methods=["POST"])
+@cross_origin(origin='*', headers=['Content-Type', 'Authorization'])
 def new_order():
     data = request.get_json()
     try:
@@ -57,6 +60,7 @@ def new_order():
 
 
 @blueprint.route("/reviews", methods=["GET"])
+@cross_origin(origin='*', headers=['Content-Type', 'Authorization'])
 def get():
     try:
         reviews = db.session.query(
