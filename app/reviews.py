@@ -1,3 +1,4 @@
+from operator import itemgetter
 from flask import Blueprint, request
 from sqlalchemy.exc import StatementError, NoResultFound
 from sqlalchemy.dialects.sqlite import insert
@@ -66,20 +67,31 @@ def get():
         reviews = db.session.query(
             models.Review.countryId,
             func.sum(models.Review.points).label("points"),
-            func.avg(models.Review.order).label("order"),
+            func.group_concat(models.Review.order).label("order"),
         ).group_by(models.Review.countryId).all()
         return {
             "pointlist": sorted(
                 [{"countryId": i[0], "points": i[1] or 0} for i in reviews],
-                key=lambda x: x["points"],
-                reverse=True
+                key=itemgetter("points"),
+                reverse=True,
             ),
-            "orderlist": sorted(
+            "orderlist": borda_count(
                 [{"countryId": i[0], "order": i[2]} for i in reviews],
-                key=lambda x: x["order"]
-            )
+            ),
         }, 200
     except NoResultFound as e:
         return {"message": str(e)}, 404
     except StatementError as e:
         return {"message": str(e.orig)}, 400
+
+
+def borda_count(ranked_items):
+    n = len(ranked_items)
+    for i, item in enumerate(ranked_items):
+        ranked_items[i]["order"] = sum([
+            n - int(op) for op in item["order"].split(",")
+        ])
+    ranked_items.sort(key=itemgetter("order"), reverse=True)
+    for i, item in enumerate(ranked_items):
+        ranked_items[i]["order"] = i + 1
+    return ranked_items
