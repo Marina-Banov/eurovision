@@ -1,3 +1,4 @@
+import json
 from flask import Blueprint, request
 from sqlalchemy.exc import StatementError, NoResultFound, IntegrityError
 from flask_cors import cross_origin
@@ -25,7 +26,7 @@ def add():
         return get(data)
     except IntegrityError:
         db.session.rollback()
-        return get(data)[0], 409
+        return json.loads(get(data).get_data()), 409
     except StatementError as e:
         return {"message": str(e.orig)}, 400
 
