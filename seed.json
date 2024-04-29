@@ -407,5 +407,378 @@
       "inFinal":  true,
       "motherTongue": false
     }
+  ],
+
+  "2024" :[
+    {
+      "id": 1,
+      "code": "",
+      "name": "Albania",
+      "artist": "BESA",
+      "song": "TITAN",
+      "songUrl": "https://www.youtube.com/watch?v=nrjFhjpm7D8",
+      "inFinal": "",
+      "motherTongue": false
+    },
+    {
+      "id": 2,
+      "code": "",
+      "name": "Armenia",
+      "artist": "LADANIVA",
+      "song": "Jako",
+      "songUrl": "https://www.youtube.com/watch?v=_6xfmW0Fc40",
+      "inFinal": "",
+      "motherTongue": true
+    },
+    {
+      "id": 3,
+      "code": "",
+      "name": "Australia",
+      "artist": "Electric Fields",
+      "song": "One Milkali (One Blood)",
+      "songUrl": "https://www.youtube.com/watch?v=tJ2IaHxCvdw",
+      "inFinal": "",
+      "motherTongue": true
+    },
+    {
+      "id": 4,
+      "code": "",
+      "name": "Austria",
+      "artist": "Kaleen",
+      "song": "We Will Rave",
+      "songUrl": "https://www.youtube.com/watch?v=Kqda15G4T-4",
+      "inFinal": "",
+      "motherTongue": false
+    },
+    {
+      "id": 5,
+      "code": "",
+      "name": "Azerbaijan",
+      "artist": "FAHREE feat. Ilkin Dovlatov",
+      "song": "Özünlə Apar",
+      "songUrl": "https://www.youtube.com/watch?v=NNhAk4rVgNc",
+      "inFinal": "",
+      "motherTongue": true
+    },
+    {
+      "id": 6,
+      "code": "",
+      "name": "Belgium",
+      "artist": "Mustii",
+      "song": "Before the Party's Over",
+      "songUrl": "https://www.youtube.com/watch?v=WCe9zrWEFNc",
+      "inFinal": "",
+      "motherTongue": false
+    },
+    {
+      "id": 7,
+      "code": "",
+      "name": "Croatia",
+      "artist": "Baby Lasagna",
+      "song": "Rim Tim Tagi Dim",
+      "songUrl": "https://www.youtube.com/watch?v=xTBrVNZtnys",
+      "inFinal": "",
+      "motherTongue": false
+    },
+    {
+      "id": 8,
+      "code": "",
+      "name": "Cyprus",
+      "artist": "Silia Kapsis",
+      "song": "Liar",
+      "songUrl": "https://www.youtube.com/watch?v=8q5QozrtEPA",
+      "inFinal": "",
+      "motherTongue": false
+    },
+    {
+      "id": 9,
+      "code": "",
+      "name": "Czechia",
+      "artist": "Aiko",
+      "song": "Pedestal",
+      "songUrl": "https://www.youtube.com/watch?v=_iTcX6NlAqA",
+      "inFinal": "",
+      "motherTongue": false
+    },
+    {
+      "id": 10,
+      "code": "",
+      "name": "Denmark",
+      "artist": "SABA",
+      "song": "SAND",
+      "songUrl": "https://www.youtube.com/watch?v=3pCtdFnv9eQ",
+      "inFinal": "",
+      "motherTongue": true
+    },
+    {
+      "id": 11,
+      "code": "",
+      "name": "Estonia",
+      "artist": "5MIINUST x Puuluup",
+      "song": "(nendest) narkootikumidest ei tea me (küll) midagi",
+      "songUrl": "https://www.youtube.com/watch?v=zY6RbPaTNUc",
+      "inFinal": "",
+      "motherTongue": true
+    },
+    {
+      "id": 12,
+      "code": "",
+      "name": "Finland",
+      "artist": "Windows95man",
+      "song": "No Rules!",
+      "songUrl": "https://www.youtube.com/watch?v=8Wi7fhswoBA",
+      "inFinal": "",
+      "motherTongue": false
+    },
+    {
+      "id": 13,
+      "code": "",
+      "name": "France",
+      "artist": "Slimane",
+      "song": "Mon amour",
+      "songUrl": "https://youtu.be/tfoOop2HXxQ",
+      "inFinal": "",
+      "motherTongue": true
+    },
+    {
+      "id": 14,
+      "code": "",
+      "name": "Georgia",
+      "artist": "Nutsa Buzaladze",
+      "song": "Firefighter",
+      "songUrl": "https://www.youtube.com/watch?v=blMwY8Jabyk",
+      "inFinal": "",
+      "motherTongue": false
+    },
+    {
+      "id": 15,
+      "code": "",
+      "name": "Germany",
+      "artist": "ISAAK",
+      "song": "Always On The Run",
+      "songUrl": "https://www.youtube.com/watch?v=8b5gcgXcWgk",
+      "inFinal": "",
+      "motherTongue": false
+    },
+    {
+      "id": 16,
+      "code": "",
+      "name": "Greece",
+      "artist": "Marina Satti",
+      "song": "ZARI",
+      "songUrl": "https://www.youtube.com/watch?v=uTYalXf184A",
+      "inFinal": "",
+      "motherTongue": true
+    },
+    {
+      "id": 17,
+      "code": "",
+      "name": "Iceland",
+      "artist": "Hera Björk",
+      "song": "Scared of Heights",
+      "songUrl": "https://youtu.be/OouUsCZ3xkM",
+      "inFinal": "",
+      "motherTongue": false
+    },
+    {
+      "id": 18,
+      "code": "",
+      "name": "Ireland",
+      "artist": "Bambie Thug",
+      "song": "Doomsday Blue",
+      "songUrl": "https://www.youtube.com/watch?v=ZGRXRrlIspY",
+      "inFinal": "",
+      "motherTongue": true
+    },
+    {
+      "id": 19,
+      "code": "",
+      "name": "Israel",
+      "artist": "Eden Golan",
+      "song": "Hurricane",
+      "songUrl": "https://www.youtube.com/watch?v=lJYn09tuPw4",
+      "inFinal": "",
+      "motherTongue": false
+    },
+    {
+      "id": 20,
+      "code": "",
+      "name": "Italy",
+      "artist": "Angelina Mango",
+      "song": "La noia",
+      "songUrl": "https://www.youtube.com/watch?v=TO85laH-ATY",
+      "inFinal": "",
+      "motherTongue": true
+    },
+    {
+      "id": 21,
+      "code": "",
+      "name": "Latvia",
+      "artist": "Dons",
+      "song": "Hollow",
+      "songUrl": "https://www.youtube.com/watch?v=p8FNO0DtBng",
+      "inFinal": "",
+      "motherTongue": true
+    },
+    {
+      "id": 22,
+      "code": "",
+      "name": "Lithuania",
+      "artist": "Silvester Belt",
+      "song": "Luktelk",
+      "songUrl": "https://www.youtube.com/watch?v=OrL668EQRu0",
+      "inFinal": "",
+      "motherTongue": true
+    },
+    {
+      "id": 23,
+      "code": "",
+      "name": "Luxembourg",
+      "artist": "TALI",
+      "song": "Fighter",
+      "songUrl": "https://www.youtube.com/watch?v=6CNuXpdyYmE",
+      "inFinal": "",
+      "motherTongue": true
+    },
+    {
+      "id": 24,
+      "code": "",
+      "name": "Malta",
+      "artist": "Sarah Bonnici",
+      "song": "Loop",
+      "songUrl": "https://www.youtube.com/watch?v=l6eS60n4wg8",
+      "inFinal": "",
+      "motherTongue": false
+    },
+    {
+      "id": 25,
+      "code": "",
+      "name": "Moldova",
+      "artist": "Natalia Barbu",
+      "song": "In The Middle",
+      "songUrl": "https://www.youtube.com/watch?v=Jom9sNL5whs",
+      "inFinal": "",
+      "motherTongue": false
+    },
+    {
+      "id": 26,
+      "code": "",
+      "name": "Netherlands",
+      "artist": "Joost Klein",
+      "song": "Europapa",
+      "songUrl": "https://www.youtube.com/watch?v=gT2wY0DjYGo",
+      "inFinal": "",
+      "motherTongue": true
+    },
+    {
+      "id": 27,
+      "code": "",
+      "name": "Norway",
+      "artist": "Gåte",
+      "song": "Ulveham",
+      "songUrl": "https://www.youtube.com/watch?v=UipzszlJwRQ",
+      "inFinal": "",
+      "motherTongue": true
+    },
+    {
+      "id": 28,
+      "code": "",
+      "name": "Poland",
+      "artist": "LUNA",
+      "song": "The Tower",
+      "songUrl": "https://www.youtube.com/watch?v=IhvDkF9XZx0",
+      "inFinal": "",
+      "motherTongue": false
+    },
+    {
+      "id": 29,
+      "code": "",
+      "name": "Portugal",
+      "artist": "iolanda",
+      "song": "Grito",
+      "songUrl": "https://www.youtube.com/watch?v=K5wDGhcDSpQ",
+      "inFinal": "",
+      "motherTongue": true
+    },
+    {
+      "id": 30,
+      "code": "",
+      "name": "San Marino",
+      "artist": "MEGARA",
+      "song": "11:11",
+      "songUrl": "https://www.youtube.com/watch?v=9NcAJtfhpWA",
+      "inFinal": "",
+      "motherTongue": true
+    },
+    {
+      "id": 31,
+      "code": "",
+      "name": "Serbia",
+      "artist": "TEYA DORA",
+      "song": "RAMONDA",
+      "songUrl": "https://www.youtube.com/watch?v=tJyBVRBiyKA",
+      "inFinal": "",
+      "motherTongue": true
+    },
+    {
+      "id": 32,
+      "code": "",
+      "name": "Slovenia",
+      "artist": "Raiven",
+      "song": "Veronika",
+      "songUrl": "https://www.youtube.com/watch?v=uWcSsi7SliI",
+      "inFinal": "",
+      "motherTongue": true
+    },
+    {
+      "id": 33,
+      "code": "",
+      "name": "Spain",
+      "artist": "Nebulossa",
+      "song": "ZORRA",
+      "songUrl": "https://youtu.be/LJFpexlj9Bs",
+      "inFinal": "",
+      "motherTongue": true
+    },
+    {
+      "id": 34,
+      "code": "",
+      "name": "Sweden",
+      "artist": "Marcus & Martinus",
+      "song": "Unforgettable",
+      "songUrl": "https://www.youtube.com/watch?v=yekc8t0rJqA",
+      "inFinal": "",
+      "motherTongue": false
+    },
+    {
+      "id": 35,
+      "code": "",
+      "name": "Switzerland",
+      "artist": "Nemo",
+      "song": "The Code",
+      "songUrl": "https://www.youtube.com/watch?v=kiGDvM14Kwg",
+      "inFinal": "",
+      "motherTongue": true
+    },
+    {
+      "id": 36,
+      "code": "",
+      "name": "Ukraine",
+      "artist": "alyona alyona & Jerry Heil",
+      "song": "Teresa & Maria",
+      "songUrl": "https://www.youtube.com/watch?v=k_8cNbF8FLI",
+      "inFinal": "",
+      "motherTongue": true
+    },
+    {
+      "id": 37,
+      "code": "",
+      "name": "United Kingdom",
+      "artist": "Olly Alexander",
+      "song": "Dizzy",
+      "songUrl": "https://www.youtube.com/watch?v=mvs92WfR8lM",
+      "inFinal": "",
+      "motherTongue": false
+    }
   ]
 }
