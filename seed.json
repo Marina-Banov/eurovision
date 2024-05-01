@@ -412,7 +412,7 @@
   "2024" :[
     {
       "id": 1,
-      "code": "",
+      "code": "AL",
       "name": "Albania",
       "artist": "BESA",
       "song": "TITAN",
@@ -422,7 +422,7 @@
     },
     {
       "id": 2,
-      "code": "",
+      "code": "AM",
       "name": "Armenia",
       "artist": "LADANIVA",
       "song": "Jako",
@@ -432,7 +432,7 @@
     },
     {
       "id": 3,
-      "code": "",
+      "code": "AU",
       "name": "Australia",
       "artist": "Electric Fields",
       "song": "One Milkali (One Blood)",
@@ -442,7 +442,7 @@
     },
     {
       "id": 4,
-      "code": "",
+      "code": "AT",
       "name": "Austria",
       "artist": "Kaleen",
       "song": "We Will Rave",
@@ -452,7 +452,7 @@
     },
     {
       "id": 5,
-      "code": "",
+      "code": "AZ",
       "name": "Azerbaijan",
       "artist": "FAHREE feat. Ilkin Dovlatov",
       "song": "Özünlə Apar",
@@ -462,7 +462,7 @@
     },
     {
       "id": 6,
-      "code": "",
+      "code": "BE",
       "name": "Belgium",
       "artist": "Mustii",
       "song": "Before the Party's Over",
@@ -472,7 +472,7 @@
     },
     {
       "id": 7,
-      "code": "",
+      "code": "HR",
       "name": "Croatia",
       "artist": "Baby Lasagna",
       "song": "Rim Tim Tagi Dim",
@@ -482,7 +482,7 @@
     },
     {
       "id": 8,
-      "code": "",
+      "code": "CY",
       "name": "Cyprus",
       "artist": "Silia Kapsis",
       "song": "Liar",
@@ -492,7 +492,7 @@
     },
     {
       "id": 9,
-      "code": "",
+      "code": "CZ",
       "name": "Czechia",
       "artist": "Aiko",
       "song": "Pedestal",
@@ -502,7 +502,7 @@
     },
     {
       "id": 10,
-      "code": "",
+      "code": "DK",
       "name": "Denmark",
       "artist": "SABA",
       "song": "SAND",
@@ -512,7 +512,7 @@
     },
     {
       "id": 11,
-      "code": "",
+      "code": "EE",
       "name": "Estonia",
       "artist": "5MIINUST x Puuluup",
       "song": "(nendest) narkootikumidest ei tea me (küll) midagi",
@@ -522,7 +522,7 @@
     },
     {
       "id": 12,
-      "code": "",
+      "code": "FI",
       "name": "Finland",
       "artist": "Windows95man",
       "song": "No Rules!",
@@ -532,7 +532,7 @@
     },
     {
       "id": 13,
-      "code": "",
+      "code": "FR",
       "name": "France",
       "artist": "Slimane",
       "song": "Mon amour",
@@ -542,7 +542,7 @@
     },
     {
       "id": 14,
-      "code": "",
+      "code": "GE",
       "name": "Georgia",
       "artist": "Nutsa Buzaladze",
       "song": "Firefighter",
@@ -552,7 +552,7 @@
     },
     {
       "id": 15,
-      "code": "",
+      "code": "DE",
       "name": "Germany",
       "artist": "ISAAK",
       "song": "Always On The Run",
@@ -562,7 +562,7 @@
     },
     {
       "id": 16,
-      "code": "",
+      "code": "GR",
       "name": "Greece",
       "artist": "Marina Satti",
       "song": "ZARI",
@@ -572,7 +572,7 @@
     },
     {
       "id": 17,
-      "code": "",
+      "code": "IS",
       "name": "Iceland",
       "artist": "Hera Björk",
       "song": "Scared of Heights",
@@ -582,7 +582,7 @@
     },
     {
       "id": 18,
-      "code": "",
+      "code": "IE",
       "name": "Ireland",
       "artist": "Bambie Thug",
       "song": "Doomsday Blue",
@@ -592,7 +592,7 @@
     },
     {
       "id": 19,
-      "code": "",
+      "code": "IL",
       "name": "Israel",
       "artist": "Eden Golan",
       "song": "Hurricane",
@@ -602,7 +602,7 @@
     },
     {
       "id": 20,
-      "code": "",
+      "code": "IT",
       "name": "Italy",
       "artist": "Angelina Mango",
       "song": "La noia",
@@ -612,7 +612,7 @@
     },
     {
       "id": 21,
-      "code": "",
+      "code": "LV",
       "name": "Latvia",
       "artist": "Dons",
       "song": "Hollow",
@@ -622,7 +622,7 @@
     },
     {
       "id": 22,
-      "code": "",
+      "code": "LT",
       "name": "Lithuania",
       "artist": "Silvester Belt",
       "song": "Luktelk",
@@ -632,7 +632,7 @@
     },
     {
       "id": 23,
-      "code": "",
+      "code": "LU",
       "name": "Luxembourg",
       "artist": "TALI",
       "song": "Fighter",
@@ -642,7 +642,7 @@
     },
     {
       "id": 24,
-      "code": "",
+      "code": "MT",
       "name": "Malta",
       "artist": "Sarah Bonnici",
       "song": "Loop",
@@ -652,7 +652,6 @@
     },
     {
       "id": 25,
-      "code": "",
       "name": "Moldova",
       "artist": "Natalia Barbu",
       "song": "In The Middle",
@@ -662,7 +661,7 @@
     },
     {
       "id": 26,
-      "code": "",
+      "code": "NL",
       "name": "Netherlands",
       "artist": "Joost Klein",
       "song": "Europapa",
@@ -672,7 +671,7 @@
     },
     {
       "id": 27,
-      "code": "",
+      "code": "NO",
       "name": "Norway",
       "artist": "Gåte",
       "song": "Ulveham",
@@ -682,7 +681,7 @@
     },
     {
       "id": 28,
-      "code": "",
+      "code": "PL",
       "name": "Poland",
       "artist": "LUNA",
       "song": "The Tower",
@@ -692,7 +691,7 @@
     },
     {
       "id": 29,
-      "code": "",
+      "code": "PT",
       "name": "Portugal",
       "artist": "iolanda",
       "song": "Grito",
@@ -702,7 +701,7 @@
     },
     {
       "id": 30,
-      "code": "",
+      "code": "SM",
       "name": "San Marino",
       "artist": "MEGARA",
       "song": "11:11",
@@ -712,7 +711,7 @@
     },
     {
       "id": 31,
-      "code": "",
+      "code": "RS",
       "name": "Serbia",
       "artist": "TEYA DORA",
       "song": "RAMONDA",
@@ -722,7 +721,7 @@
     },
     {
       "id": 32,
-      "code": "",
+      "code": "SI",
       "name": "Slovenia",
       "artist": "Raiven",
       "song": "Veronika",
@@ -732,7 +731,7 @@
     },
     {
       "id": 33,
-      "code": "",
+      "code": "ES",
       "name": "Spain",
       "artist": "Nebulossa",
       "song": "ZORRA",
@@ -742,7 +741,7 @@
     },
     {
       "id": 34,
-      "code": "",
+      "code": "SE",
       "name": "Sweden",
       "artist": "Marcus & Martinus",
       "song": "Unforgettable",
@@ -752,7 +751,7 @@
     },
     {
       "id": 35,
-      "code": "",
+      "code": "CH",
       "name": "Switzerland",
       "artist": "Nemo",
       "song": "The Code",
@@ -762,7 +761,7 @@
     },
     {
       "id": 36,
-      "code": "",
+      "code": "UA",
       "name": "Ukraine",
       "artist": "alyona alyona & Jerry Heil",
       "song": "Teresa & Maria",
@@ -772,7 +771,7 @@
     },
     {
       "id": 37,
-      "code": "",
+      "code": "GB",
       "name": "United Kingdom",
       "artist": "Olly Alexander",
       "song": "Dizzy",
