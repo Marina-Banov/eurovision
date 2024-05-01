@@ -417,7 +417,7 @@
       "artist": "BESA",
       "song": "TITAN",
       "songUrl": "https://www.youtube.com/watch?v=nrjFhjpm7D8",
-      "inFinal": "",
+      "inFinal": false,
       "motherTongue": false
     },
     {
@@ -427,7 +427,7 @@
       "artist": "LADANIVA",
       "song": "Jako",
       "songUrl": "https://www.youtube.com/watch?v=_6xfmW0Fc40",
-      "inFinal": "",
+      "inFinal": false,
       "motherTongue": true
     },
     {
@@ -437,7 +437,7 @@
       "artist": "Electric Fields",
       "song": "One Milkali (One Blood)",
       "songUrl": "https://www.youtube.com/watch?v=tJ2IaHxCvdw",
-      "inFinal": "",
+      "inFinal": false,
       "motherTongue": true
     },
     {
@@ -447,7 +447,7 @@
       "artist": "Kaleen",
       "song": "We Will Rave",
       "songUrl": "https://www.youtube.com/watch?v=Kqda15G4T-4",
-      "inFinal": "",
+      "inFinal": false,
       "motherTongue": false
     },
     {
@@ -457,7 +457,7 @@
       "artist": "FAHREE feat. Ilkin Dovlatov",
       "song": "Özünlə Apar",
       "songUrl": "https://www.youtube.com/watch?v=NNhAk4rVgNc",
-      "inFinal": "",
+      "inFinal": false,
       "motherTongue": true
     },
     {
@@ -467,7 +467,7 @@
       "artist": "Mustii",
       "song": "Before the Party's Over",
       "songUrl": "https://www.youtube.com/watch?v=WCe9zrWEFNc",
-      "inFinal": "",
+      "inFinal": false,
       "motherTongue": false
     },
     {
@@ -477,7 +477,7 @@
       "artist": "Baby Lasagna",
       "song": "Rim Tim Tagi Dim",
       "songUrl": "https://www.youtube.com/watch?v=xTBrVNZtnys",
-      "inFinal": "",
+      "inFinal": false,
       "motherTongue": false
     },
     {
@@ -487,7 +487,7 @@
       "artist": "Silia Kapsis",
       "song": "Liar",
       "songUrl": "https://www.youtube.com/watch?v=8q5QozrtEPA",
-      "inFinal": "",
+      "inFinal": false,
       "motherTongue": false
     },
     {
@@ -497,7 +497,7 @@
       "artist": "Aiko",
       "song": "Pedestal",
       "songUrl": "https://www.youtube.com/watch?v=_iTcX6NlAqA",
-      "inFinal": "",
+      "inFinal": false,
       "motherTongue": false
     },
     {
@@ -507,7 +507,7 @@
       "artist": "SABA",
       "song": "SAND",
       "songUrl": "https://www.youtube.com/watch?v=3pCtdFnv9eQ",
-      "inFinal": "",
+      "inFinal": false,
       "motherTongue": true
     },
     {
@@ -517,7 +517,7 @@
       "artist": "5MIINUST x Puuluup",
       "song": "(nendest) narkootikumidest ei tea me (küll) midagi",
       "songUrl": "https://www.youtube.com/watch?v=zY6RbPaTNUc",
-      "inFinal": "",
+      "inFinal": false,
       "motherTongue": true
     },
     {
@@ -527,7 +527,7 @@
       "artist": "Windows95man",
       "song": "No Rules!",
       "songUrl": "https://www.youtube.com/watch?v=8Wi7fhswoBA",
-      "inFinal": "",
+      "inFinal": false,
       "motherTongue": false
     },
     {
@@ -537,7 +537,7 @@
       "artist": "Slimane",
       "song": "Mon amour",
       "songUrl": "https://youtu.be/tfoOop2HXxQ",
-      "inFinal": "",
+      "inFinal": false,
       "motherTongue": true
     },
     {
@@ -547,7 +547,7 @@
       "artist": "Nutsa Buzaladze",
       "song": "Firefighter",
       "songUrl": "https://www.youtube.com/watch?v=blMwY8Jabyk",
-      "inFinal": "",
+      "inFinal": false,
       "motherTongue": false
     },
     {
@@ -557,7 +557,7 @@
       "artist": "ISAAK",
       "song": "Always On The Run",
       "songUrl": "https://www.youtube.com/watch?v=8b5gcgXcWgk",
-      "inFinal": "",
+      "inFinal": false,
       "motherTongue": false
     },
     {
@@ -567,7 +567,7 @@
       "artist": "Marina Satti",
       "song": "ZARI",
       "songUrl": "https://www.youtube.com/watch?v=uTYalXf184A",
-      "inFinal": "",
+      "inFinal": false,
       "motherTongue": true
     },
     {
@@ -577,7 +577,7 @@
       "artist": "Hera Björk",
       "song": "Scared of Heights",
       "songUrl": "https://youtu.be/OouUsCZ3xkM",
-      "inFinal": "",
+      "inFinal": false,
       "motherTongue": false
     },
     {
@@ -587,7 +587,7 @@
       "artist": "Bambie Thug",
       "song": "Doomsday Blue",
       "songUrl": "https://www.youtube.com/watch?v=ZGRXRrlIspY",
-      "inFinal": "",
+      "inFinal": false,
       "motherTongue": true
     },
     {
@@ -597,7 +597,7 @@
       "artist": "Eden Golan",
       "song": "Hurricane",
       "songUrl": "https://www.youtube.com/watch?v=lJYn09tuPw4",
-      "inFinal": "",
+      "inFinal": false,
       "motherTongue": false
     },
     {
@@ -607,7 +607,7 @@
       "artist": "Angelina Mango",
       "song": "La noia",
       "songUrl": "https://www.youtube.com/watch?v=TO85laH-ATY",
-      "inFinal": "",
+      "inFinal": false,
       "motherTongue": true
     },
     {
@@ -617,7 +617,7 @@
       "artist": "Dons",
       "song": "Hollow",
       "songUrl": "https://www.youtube.com/watch?v=p8FNO0DtBng",
-      "inFinal": "",
+      "inFinal": false,
       "motherTongue": true
     },
     {
@@ -627,7 +627,7 @@
       "artist": "Silvester Belt",
       "song": "Luktelk",
       "songUrl": "https://www.youtube.com/watch?v=OrL668EQRu0",
-      "inFinal": "",
+      "inFinal": false,
       "motherTongue": true
     },
     {
@@ -637,7 +637,7 @@
       "artist": "TALI",
       "song": "Fighter",
       "songUrl": "https://www.youtube.com/watch?v=6CNuXpdyYmE",
-      "inFinal": "",
+      "inFinal": false,
       "motherTongue": true
     },
     {
@@ -647,7 +647,7 @@
       "artist": "Sarah Bonnici",
       "song": "Loop",
       "songUrl": "https://www.youtube.com/watch?v=l6eS60n4wg8",
-      "inFinal": "",
+      "inFinal": false,
       "motherTongue": false
     },
     {
@@ -656,7 +656,7 @@
       "artist": "Natalia Barbu",
       "song": "In The Middle",
       "songUrl": "https://www.youtube.com/watch?v=Jom9sNL5whs",
-      "inFinal": "",
+      "inFinal": false,
       "motherTongue": false
     },
     {
@@ -666,7 +666,7 @@
       "artist": "Joost Klein",
       "song": "Europapa",
       "songUrl": "https://www.youtube.com/watch?v=gT2wY0DjYGo",
-      "inFinal": "",
+      "inFinal": false,
       "motherTongue": true
     },
     {
@@ -676,7 +676,7 @@
       "artist": "Gåte",
       "song": "Ulveham",
       "songUrl": "https://www.youtube.com/watch?v=UipzszlJwRQ",
-      "inFinal": "",
+      "inFinal": false,
       "motherTongue": true
     },
     {
@@ -686,7 +686,7 @@
       "artist": "LUNA",
       "song": "The Tower",
       "songUrl": "https://www.youtube.com/watch?v=IhvDkF9XZx0",
-      "inFinal": "",
+      "inFinal": false,
       "motherTongue": false
     },
     {
@@ -696,7 +696,7 @@
       "artist": "iolanda",
       "song": "Grito",
       "songUrl": "https://www.youtube.com/watch?v=K5wDGhcDSpQ",
-      "inFinal": "",
+      "inFinal": false,
       "motherTongue": true
     },
     {
@@ -706,7 +706,7 @@
       "artist": "MEGARA",
       "song": "11:11",
       "songUrl": "https://www.youtube.com/watch?v=9NcAJtfhpWA",
-      "inFinal": "",
+      "inFinal": false,
       "motherTongue": true
     },
     {
@@ -716,7 +716,7 @@
       "artist": "TEYA DORA",
       "song": "RAMONDA",
       "songUrl": "https://www.youtube.com/watch?v=tJyBVRBiyKA",
-      "inFinal": "",
+      "inFinal": false,
       "motherTongue": true
     },
     {
@@ -726,7 +726,7 @@
       "artist": "Raiven",
       "song": "Veronika",
       "songUrl": "https://www.youtube.com/watch?v=uWcSsi7SliI",
-      "inFinal": "",
+      "inFinal": false,
       "motherTongue": true
     },
     {
@@ -736,7 +736,7 @@
       "artist": "Nebulossa",
       "song": "ZORRA",
       "songUrl": "https://youtu.be/LJFpexlj9Bs",
-      "inFinal": "",
+      "inFinal": false,
       "motherTongue": true
     },
     {
@@ -746,7 +746,7 @@
       "artist": "Marcus & Martinus",
       "song": "Unforgettable",
       "songUrl": "https://www.youtube.com/watch?v=yekc8t0rJqA",
-      "inFinal": "",
+      "inFinal": false,
       "motherTongue": false
     },
     {
@@ -756,7 +756,7 @@
       "artist": "Nemo",
       "song": "The Code",
       "songUrl": "https://www.youtube.com/watch?v=kiGDvM14Kwg",
-      "inFinal": "",
+      "inFinal": false,
       "motherTongue": true
     },
     {
@@ -766,7 +766,7 @@
       "artist": "alyona alyona & Jerry Heil",
       "song": "Teresa & Maria",
       "songUrl": "https://www.youtube.com/watch?v=k_8cNbF8FLI",
-      "inFinal": "",
+      "inFinal": false,
       "motherTongue": true
     },
     {
@@ -776,7 +776,7 @@
       "artist": "Olly Alexander",
       "song": "Dizzy",
       "songUrl": "https://www.youtube.com/watch?v=mvs92WfR8lM",
-      "inFinal": "",
+      "inFinal": false,
       "motherTongue": false
     }
   ]
