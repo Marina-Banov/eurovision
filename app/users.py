@@ -1,7 +1,7 @@
 import json
 from flask import Blueprint, request
-from sqlalchemy.exc import StatementError, NoResultFound, IntegrityError
 from flask_cors import cross_origin
+from sqlalchemy.exc import StatementError, NoResultFound, IntegrityError
 
 from app import db, models, config
 
@@ -9,7 +9,7 @@ blueprint = Blueprint("users", __name__)
 
 
 @blueprint.route("/users", methods=["POST"])
-@cross_origin(origin='*', headers=['Content-Type', 'Authorization'])
+@cross_origin(origin="*", headers=["Content-Type", "Authorization"])
 def add():
     data = request.get_json()["username"]
     u = models.User({"username": data})
@@ -32,11 +32,11 @@ def add():
 
 
 @blueprint.route("/users", methods=["GET"])
-@cross_origin(origin='*', headers=['Content-Type', 'Authorization'])
+@cross_origin(origin="*", headers=["Content-Type", "Authorization"])
 def get(username=None):
-    data = username or request.args["username"]
+    data = request.args.get("username", username)
     try:
-        u = db.session.query(models.User)\
+        u = db.session.query(models.User) \
             .filter(models.User.username == data).one()
         reviews = db.session.query(
             models.Review.countryId,
