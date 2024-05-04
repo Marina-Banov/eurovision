@@ -5,7 +5,7 @@ from sqlalchemy.dialects.sqlite import insert
 from sqlalchemy import func
 from flask_cors import cross_origin
 
-from app import db, models
+from app import db, models, config
 
 blueprint = Blueprint("reviews", __name__)
 
@@ -67,8 +67,11 @@ def get():
         reviews = db.session.query(
             models.Review.countryId,
             func.sum(models.Review.points).label("points"),
-            func.group_concat(models.Review.order).label("order"),
-        ).group_by(models.Review.countryId).all()
+            func.group_concat(models.Review.order).label("order")) \
+            .join(models.Country) \
+            .filter(models.Country.inFinal)\
+            .filter(models.Country.year == int(config["EUROVISION_YEAR"]))\
+            .group_by(models.Review.countryId).all()
         return {
             "pointlist": sorted(
                 [{"countryId": i[0], "points": i[1] or 0} for i in reviews],
