@@ -9,8 +9,10 @@ def get_reviews_chart(country_id):
         models.Review.points,
         func.count(models.Review.id)) \
         .group_by(models.Review.points) \
+        .filter(models.Review.points > 0) \
         .filter(models.Review.countryId == country_id).all()
-    return {i[0]: i[1] for i in chart}
+    result = {i[0]: i[1] for i in chart}
+    return {i: result.get(i, 0) for i in range(1, 11)}
 
 
 def borda_count(ranked_items):
