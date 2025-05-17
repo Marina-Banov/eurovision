@@ -827,7 +827,7 @@
       "song": "Zjerm",
       "songUrl": "https://youtu.be/Sfvb761EEcM",
       "inFinal": true,
-      "motherTongue": false
+      "motherTongue": true
     },
     {
       "id": 76,
@@ -838,7 +838,7 @@
       "song": "SURVIVOR",
       "songUrl": "https://youtu.be/RfH5o3XtI2c",
       "inFinal": true,
-      "motherTongue": true
+      "motherTongue": false
     },
     {
       "id": 77,
@@ -849,7 +849,7 @@
       "song": "Milkshake Man",
       "songUrl": "https://youtu.be/_08I6mjHSLA",
       "inFinal": false,
-      "motherTongue": true
+      "motherTongue": false
     },
     {
       "id": 78,
@@ -871,7 +871,7 @@
       "song": "Run With U",
       "songUrl": "https://youtu.be/upbiPJ9uA70",
       "inFinal": false,
-      "motherTongue": true
+      "motherTongue": false
     },
     {
       "id": 80,
@@ -926,7 +926,7 @@
       "song": "Hallucination",
       "songUrl": "https://youtu.be/gdCAgiSIOUc",
       "inFinal": true,
-      "motherTongue": true
+      "motherTongue": false
     },
     {
       "id": 85,
@@ -948,7 +948,7 @@
       "song": "ICH KOMME",
       "songUrl": "https://youtu.be/Kg3QoTpnqyw",
       "inFinal": true,
-      "motherTongue": false
+      "motherTongue": true
     },
     {
       "id": 87,
@@ -970,7 +970,7 @@
       "song": "Freedom",
       "songUrl": "https://youtu.be/c3wu0dUNd4c",
       "inFinal": false,
-      "motherTongue": false
+      "motherTongue": true
     },
     {
       "id": 89,
@@ -981,7 +981,7 @@
       "song": "Baller",
       "songUrl": "https://youtu.be/zJplC4-9Scs",
       "inFinal": true,
-      "motherTongue": false
+      "motherTongue": true
     },
     {
       "id": 90,
@@ -1003,7 +1003,7 @@
       "song": "RÓA",
       "songUrl": "https://youtu.be/s9P83Nl6D1M",
       "inFinal": true,
-      "motherTongue": false
+      "motherTongue": true
     },
     {
       "id": 92,
@@ -1014,7 +1014,7 @@
       "song": "Laika Party",
       "songUrl": "https://youtu.be/cZnusVb7yjs",
       "inFinal": false,
-      "motherTongue": true
+      "motherTongue": false
     },
     {
       "id": 93,
@@ -1025,7 +1025,7 @@
       "song": "New Day Will Rise",
       "songUrl": "https://youtu.be/Q3BELu4z6-U",
       "inFinal": true,
-      "motherTongue": false
+      "motherTongue": true
     },
     {
       "id": 94,
@@ -1113,7 +1113,7 @@
       "song": "Lighter",
       "songUrl": "https://youtu.be/pUjWzQ671MQ",
       "inFinal": true,
-      "motherTongue": true
+      "motherTongue": false
     },
     {
       "id": 102,
@@ -1124,7 +1124,7 @@
       "song": "GAJA",
       "songUrl": "https://youtu.be/YXHHDjiclxA",
       "inFinal": true,
-      "motherTongue": false
+      "motherTongue": true
     },
     {
       "id": 103,
@@ -1168,7 +1168,7 @@
       "song": "How Much Time Do We Have Left",
       "songUrl": "https://youtu.be/GT1YhfRpq3Q",
       "inFinal": false,
-      "motherTongue": true
+      "motherTongue": false
     },
     {
       "id": 107,
@@ -1190,7 +1190,7 @@
       "song": "Bara Bada Bastu",
       "songUrl": "https://youtu.be/WK3HOMhAeQY",
       "inFinal": true,
-      "motherTongue": false
+      "motherTongue": true
     },
     {
       "id": 109,
